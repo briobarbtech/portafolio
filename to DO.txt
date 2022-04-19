@@ -1,0 +1,5 @@
+() - Pantalla proyectos
+() - formatar el modal
+() - configurar para recibir correos 
+() - configurar para la transición del slider
+() - verificar porque el slider scrollea invertido

@@ -1,0 +1,26 @@
+.presentación{
+    display: flex;
+    align-items: center;
+}
+.imagen-presentacion{
+    width: 100%;
+}
+.foto-perfil{
+    width: 280px;
+}
+.redes-sociales{
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    color: var(--font-color-primary);
+    justify-content: space-around;
+}
+.redes-sociales li{
+    display: flex;
+    align-items: center;
+
+}
+.img-social{
+    margin: 10px;
+    width: 20%;
+}

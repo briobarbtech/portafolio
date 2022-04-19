@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head>
+        <meta charset="utf-8">
+        <title>Sobre mi - Brian Barquesi</title>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="styles/style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200;400&display=swap" rel="stylesheet">
+        <script src="js/formEmail.js" defer></script>
+    </head>
+    <body>
+      <header>
+        <section class="navegacion">
+          <h1 class="title">Brian Barquesi</h1>
+          <div class="caja">
+              <nav>
+                  <ul class="menu" id="menu">
+                      <li><a href="index.html">Inicio</a></li>
+                      <li><a href="about_me.html">Sobre mi</a>
+                        <ul>
+                          <li><a href="skills.html">Skills</a></li>
+                          <li><a href="hobbies.html">Hobbies</a></li>
+                          <li><a href="formacion.html">Educación</a></li>
+                        </ul> 
+                      </li>
+                      <li><a href="proyectos.html">Proyectos</a></li>
+                      <li><a href="">Contacto</a>
+                        <ul>
+                          <li><a href="https://github.com/briobarbtech">GitHub</a></li>
+                          <li><a href="https://www.linkedin.com/in/brian-barquesi/">LinkedIn</a></li>
+                          <li><a href="#" class="buton-email" id="buton-email">Email</a></li>
+                        </ul>  
+                      </li>
+                    </ul>
+              </nav>
+          </div>
+        </section>
+        <section class="presentacion">
+          <h1 class="encabezado">Mis hobbies:</h1>
+          <section class="caja-1">
+            <img class="img-hobbies" src="img/hobbies/rocket-league.jpeg" alt="Imagen de presentación del juego Rocket League">
+            <p class="subtitulo">Jugador de Rocket League</p>
+            <p>Soy un apasionado jugador de Rocket League que humildemente presumo ser de rango Champion</p>
+          </section>
+          <section class="caja-1">
+            <img class="img-hobbies" src="img/hobbies/kat-draw.jpg" alt="Dibujo de una chica con alas entre nubes">
+            <p class="subtitulo">Artista</p>
+            <p>Me gusta en mis tiempos libres dibujar digital y aveces tradicional</p>
+          </section>
+        <section class="caja-1">
+          <img class="img-hobbies" src="img/hobbies/fitness.jpg" alt="Imagen de entrenamiento">
+          <p class="subtitulo">Entrenando mente y cuerpo</p>
+          <p>Otra de mis actividades es el enjercicio diario donde puedo entrenar mi cuerpo y mi mente, me he notado más disciplinado, activo y enérgico desde que entreno.</p>
+        </section>
+        <section class="modal" id="modal">
+          <form class="modal-container" id="modal-container">
+            <img class="imgModal" src="img/foto-perfil.png">
+            <p class="modal-title">Escribeme un correo!</p>
+            <label for="nombre-apellido-form">Nombre y apellido <input type="name" class="name-input" id="name-input"></label>
+            <label for="email-form">Email <input type="email" class="email-form" id="email-form" placeholder="email@dominio.com"></label>
+            <label for="asunto-form">Asunto <input type="text" class="asunto-form" id="asunto-form"></label>
+            <label for="mensaje-email">Escriba acá su mensaje: <textarea id="area-email"></textarea></label>
+            <input class="enviar" type="submit" value="Enviar formulario">
+            <button class="cerrarBoton" id="cerrarBoton">Cerrar</button>
+          </form>
+        </section>
+    </header>
+    <main>
+    </main>
+    </body>
+    <footer>
+        
+    </footer>
+</html>

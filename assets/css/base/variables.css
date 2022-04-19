@@ -1,0 +1,10 @@
+:root{
+    --font-family-body: 'Smooch Sans', sans-serif;
+    --font-color-primary: #ffffff;
+    --font-color-secondary: #d1acff6f;
+    --font-color-thirty: #A2A2A2;
+
+
+    --background-color: #ffffff;
+    --shadow: 0 5px 10px #55a6ff38;
+}

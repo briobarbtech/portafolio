@@ -1,0 +1,18 @@
+@import url(reset.css);
+@import url(../base/variables.css);
+@import url(../style2.css);
+@import url(../components/buttons.css);
+@import url(../components/header.css);
+@import url(../components/text.css);
+@import url(../components/presentacion.css);
+
+body{
+    width:100%;
+/*     background: url(../../img/background.png); */
+    background-size: cover;
+    background-color: black;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
