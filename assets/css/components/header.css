@@ -10,22 +10,24 @@ header{
 }
 .logo{
     display: flex;
+    margin-top: 10px;
 }
 .logo img{
-    width: 50px;
+    width: 100px;
     color: var(--font-color-primary);
 }
 .title-1{
     margin-left: 10px;
-    font: 3em 'Mukta', sans-serif;
+    font: 4em 'Mukta', sans-serif;
     color: #ffffff;
 }
 .title-2 {
     margin-left: 10px;
-    font: 3em 'Mukta', sans-serif;
-    color: #8400ff
+    font: 4em 'Mukta', sans-serif;
+    color: #ff00ff
 }
 .nav{
+    margin-left: 150px;
     display: flex;
 }
 .nav li{
@@ -33,4 +35,7 @@ header{
 }
 .nav li a{
     font-size: 24px;
+}
+p{
+    color: white;
 }

@@ -1,12 +1,18 @@
 .presentación{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 100px 
+}
+.parrafo-presentacion{
+    margin-top: 80px;
+   margin-left: 100px;;
 }
 .imagen-presentacion{
     width: 100%;
 }
 .foto-perfil{
-    width: 280px;
+    width: 360px;
 }
 .redes-sociales{
     margin: 0 auto;
@@ -22,5 +28,5 @@
 }
 .img-social{
     margin: 10px;
-    width: 20%;
+    width: 10%;
 }
