@@ -62,5 +62,27 @@
             "img":"assets/img/skills/workstation.svg",
             "class":"img-skills"
         }
+    ],
+    "hobbies":[
+        {
+            "nombre":"Dibujo digital",
+            "img":"assets/img/hobbies/website-design.png",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Jugar videojuegos",
+            "img":"assets/img/hobbies/gaming-pc.png",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Ejercicios",
+            "img":"assets/img/hobbies/health-and-fitness.png",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Cocina",
+            "img":"assets/img/hobbies/cutting-board.png",
+            "class":"img-skills"
+        }
     ]
 }
