@@ -1,6 +1,6 @@
 function get_resources(){
-    return fetch(`https://briobarbtech.github.io/brian-barquesi-portafolio/redes.json`).then((response)=>{
-        console.log(response)
+    return fetch(`https://briobarbtech.github.io/brian-barquesi-portafolio/db.json`).then((response)=>{
+        return response.json()
     })
 }
 

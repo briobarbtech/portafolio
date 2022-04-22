@@ -73,9 +73,9 @@ const skills = [
 ]
  */
 
-/* async function crearElementosContactos(resource) {
-    const data = await client_services.get_resources(resource)
-    data.forEach(contacto => {                                             // Por cada elemente en el Array de redes
+async function crearElementosContactos(resource) {
+    const data = await client_services.get_resources()
+    data[resource].forEach(contacto => {                                             // Por cada elemente en el Array de redes
         let li = document.createElement('li')                               // va a crear un elemento de tipo li
         li.innerHTML = crearElemento(contacto)                      // va a agregar el resuitado de la función crearEllemento
         sectorDeContactos.appendChild(li)                                   // y finalmente lo agrega como hijo del sector de contactos en el DOM 
@@ -83,8 +83,8 @@ const skills = [
 }
 
 async function crearElementosSkills(resource) {
-    const data = await client_services.get_resources(resource)
-    data.forEach(skill =>{
+    const data = await client_services.get_resources()
+    data[resource].forEach(skill =>{
         let li = document.createElement('li')
         li.classList.add('lista-skills')
         li.innerHTML = crearElemento(skill)
@@ -94,7 +94,4 @@ async function crearElementosSkills(resource) {
 
 crearElementosContactos("redes")
 crearElementosSkills("skills")
- */
-
-const data = client_services.get_resources()
-console.log(data['skills'])
+/* crearElementosSkills('hobbies') */
