@@ -5,7 +5,7 @@ const sectorDeSkills = document.getElementById('sector-skills')
 const sectorDeHobbies = document.getElementById('sector-hobbies')
 function crearElemento(parametro){                              // Creamos una función que crea el elemento tal cual queremos esté en el DOM    
     return `<img class=${parametro.class} src=${parametro.img}
-    alt=""><a href="">${parametro.nombre}</a>`
+    alt=""><p href="#">${parametro.nombre}</p>`
 }
 
 
@@ -32,7 +32,7 @@ async function crearElementosHobbies(resource) {
     const data = await client_services.get_resources()
     data[resource].forEach(skill =>{
         let li = document.createElement('li')
-        li.classList.add('lista-skills')
+        li.classList.add('lista-hobbies')
         li.innerHTML = crearElemento(skill)
         sectorDeHobbies.appendChild(li)
     });

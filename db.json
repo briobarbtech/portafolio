@@ -54,12 +54,12 @@
         },
         {
             "nombre":"Conocimiento sobre redes",
-            "img":"assets/img/skills/cloud-server.svg",
+            "img":"assets/img/skills/cloud-server.png",
             "class":"img-skills"
         },
         {
             "nombre":"Reparación de equipos informáticos",
-            "img":"assets/img/skills/workstation.svg",
+            "img":"assets/img/skills/workstation.png",
             "class":"img-skills"
         }
     ],
