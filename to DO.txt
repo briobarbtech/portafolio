@@ -1,5 +1,3 @@
-() - Pantalla proyectos
-() - formatar el modal
-() - configurar para recibir correos 
-() - configurar para la transición del slider
-() - verificar porque el slider scrollea invertido
+() - Buscar la forma de reutilizar el codigo de crear contacto para skills y hobbies
+
+✓

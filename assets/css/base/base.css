@@ -6,6 +6,7 @@
 @import url(../components/text.css);
 @import url(../components/presentacion.css);
 @import url(../components/about-me.css);
+@import url(../components/skills.css);
 
 body{
     width:100%;
