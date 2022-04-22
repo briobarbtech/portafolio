@@ -11,53 +11,53 @@ function crearElementoSkills(parametro){                              // Creamos
 const redes = [                                                         // Creamos la lista con los datos de cada elemento a crear 
     {
         "nombre":"GitHub",
-        "img":"../assets/img/icons/github.svg"
+        "img":"assets/img/icons/github.svg"
     },
     {
         "nombre":"LinkedIn",
-        "img":"../assets/img/icons/linkedin.svg"
+        "img":"assets/img/icons/linkedin.svg"
     },
     {
         "nombre":"Instagram",
-        "img": "../assets/img/icons/instagram.svg"
+        "img": "assets/img/icons/instagram.svg"
     },
     {
         "nombre":"Curriculum",
-        "img": "../assets/img/icons/curriculum-vitae.svg"
+        "img": "assets/img/icons/curriculum-vitae.svg"
     }
 ]
 const skills = [
     {
         "nombre": "JavaScript",
-        "img":"/assets/img/skills/javascript-programming-language.svg",
+        "img":"assets/img/skills/javascript-programming-language.svg",
     },
     {
         "nombre":"HTML",
-        "img":"/assets/img/skills/html.svg"
+        "img":"assets/img/skills/html.svg"
     },
     {
         "nombre":"CSS3",
-        "img":"/assets/img/skills/css.svg"
+        "img":"assets/img/skills/css.svg"
     },
     {
         "nombre":"Python",
-        "img":"/assets/img/skills/python-programming-language.svg"
+        "img":"assets/img/skills/python-programming-language.svg"
     },
     {
         "nombre":"Git",
-        "img":"/assets/img/skills/git.svg"
+        "img":"assets/img/skills/git.svg"
     },
     {
         "nombre":"Flutter",
-        "img":"/assets/img/skills/flutter.svg"
+        "img":"assets/img/skills/flutter.svg"
     },
     {
         "nombre":"Conocimiento sobre redes",
-        "img":"/assets/img/skills/cloud-server.svg"
+        "img":"assets/img/skills/cloud-server.svg"
     },
     {
         "nombre":"Reparación de equipos informáticos",
-        "img":"/assets/img/skills/workstation.svg"
+        "img":"assets/img/skills/workstation.svg"
     },
 ]
 
