@@ -1,3 +1,5 @@
+import { client_services } from "./service/client-service.js";
+
 const sectorDeContactos = document.getElementById('redes-sociales')     // Traemos a una variable el elemento del DOM identificado por el id redes-sociales
 const sectorDeSkills = document.getElementById('sector-skills') 
 function crearElemento(parametro){                              // Creamos una función que crea el elemento tal cual queremos esté en el DOM    
@@ -5,7 +7,7 @@ function crearElemento(parametro){                              // Creamos una f
     alt=""><a href="">${parametro.nombre}</a>`
 }
 
-const redes = [                                                         // Creamos la lista con los datos de cada elemento a crear 
+/* const redes = [                                                         // Creamos la lista con los datos de cada elemento a crear 
     {
         "nombre":"GitHub",
         "img":"assets/img/icons/github.svg",
@@ -69,17 +71,30 @@ const skills = [
         "class":"img-skills"
     },
 ]
+ */
 
-redes.forEach(contacto => {                                             // Por cada elemente en el Array de redes
-    let li = document.createElement('li')                               // va a crear un elemento de tipo li
-    li.innerHTML = crearElemento(contacto)                      // va a agregar el resuitado de la función crearEllemento
-    sectorDeContactos.appendChild(li)                                   // y finalmente lo agrega como hijo del sector de contactos en el DOM 
-});
+/* async function crearElementosContactos(resource) {
+    const data = await client_services.get_resources(resource)
+    data.forEach(contacto => {                                             // Por cada elemente en el Array de redes
+        let li = document.createElement('li')                               // va a crear un elemento de tipo li
+        li.innerHTML = crearElemento(contacto)                      // va a agregar el resuitado de la función crearEllemento
+        sectorDeContactos.appendChild(li)                                   // y finalmente lo agrega como hijo del sector de contactos en el DOM 
+    });
+}
 
-skills.forEach(skill =>{
-    let li = document.createElement('li')
-    li.classList.add('lista-skills')
-    li.innerHTML = crearElemento(skill)
-    sectorDeSkills.appendChild(li)
-} )
+async function crearElementosSkills(resource) {
+    const data = await client_services.get_resources(resource)
+    data.forEach(skill =>{
+        let li = document.createElement('li')
+        li.classList.add('lista-skills')
+        li.innerHTML = crearElemento(skill)
+        sectorDeSkills.appendChild(li)
+    });
+}
 
+crearElementosContactos("redes")
+crearElementosSkills("skills")
+ */
+
+const data = client_services.get_resources()
+console.log(data['skills'])
