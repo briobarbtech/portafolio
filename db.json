@@ -1,0 +1,66 @@
+{
+    "redes": [
+        {
+            "nombre":"GitHub",
+            "img":"assets/img/icons/github.svg",
+            "class":"img-social"
+        },
+        {
+            "nombre":"LinkedIn",
+            "img":"assets/img/icons/linkedin.svg",
+            "class":"img-social"
+        },
+        {
+            "nombre":"Instagram",
+            "img": "assets/img/icons/instagram.svg",
+            "class":"img-social"
+        },
+        {
+            "nombre":"Curriculum",
+            "img": "assets/img/icons/curriculum-vitae.svg",
+            "class":"img-social"
+        }
+    ],
+    "skills": [
+        {
+            "nombre": "JavaScript",
+            "img":"assets/img/skills/javascript-programming-language.svg",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"HTML",
+            "img":"assets/img/skills/html.svg",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"CSS3",
+            "img":"assets/img/skills/css.svg",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Python",
+            "img":"assets/img/skills/python-programming-language.svg",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Git",
+            "img":"assets/img/skills/git.svg",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Flutter",
+            "img":"assets/img/skills/flutter.svg",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Conocimiento sobre redes",
+            "img":"assets/img/skills/cloud-server.svg",
+            "class":"img-skills"
+        },
+        {
+            "nombre":"Reparación de equipos informáticos",
+            "img":"assets/img/skills/workstation.svg",
+            "class":"img-skills"
+        }
+    ]
+}

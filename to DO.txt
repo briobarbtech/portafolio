@@ -1,4 +1,5 @@
 () - Buscar la forma de reutilizar el codigo de crear contacto para skills y hobbies
+() - Cambiar el segundo titulo que está repetido
 
 ✓
 
