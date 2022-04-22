@@ -1,3 +1,23 @@
 () - Buscar la forma de reutilizar el codigo de crear contacto para skills y hobbies
 
 ✓
+
+
+Comunicativo:</b> Soy alguien que tiene facilidad para darse a entender, puedo llevar tecnicismos complejos a situaciones más coloquiales para que la gente pueda asociarlos y entenderlos mejor.
+Compañero:</b> Disfruto el trabajar en equipo, formar parte y apoyar con lo que se me pida.
+Soy quien puede contribuir con su interés, mi predisposición a compartir los objetivos, de volverlos mis propias ambiciones, se relaciona muy bien con mi manía por querer hacer las cosas siempre mejor, que sean un punto o dos por encima de lo que se espera.
+Me gusta escuchar y compartir mis conocimientos, relacionarlos, compararlos, analizar cualquier cosa que se me diga, soy una persona que disfruta del debatir ideas. Siempre hay algo que podemos aprender.
+
+
+        <section class="modal" id="modal">
+          <form class="modal-container" id="modal-container">
+            <img class="imgModal" src="img/foto-perfil.png">
+            <p class="modal-title">Escribeme un correo!</p>
+            <label for="nombre-apellido-form">Nombre y apellido <input type="name" class="name-input" id="name-input"></label>
+            <label for="email-form">Email <input type="email" class="email-form" id="email-form" placeholder="email@dominio.com"></label>
+            <label for="asunto-form">Asunto <input type="text" class="asunto-form" id="asunto-form"></label>
+            <label for="mensaje-email">Escriba acá su mensaje: <textarea id="area-email"></textarea></label>
+            <input class="enviar" type="submit" value="Enviar formulario">
+            <button class="cerrarBoton" id="cerrarBoton">Cerrar</button>
+          </form>
+        </section>
