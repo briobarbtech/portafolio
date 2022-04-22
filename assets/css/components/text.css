@@ -15,17 +15,19 @@
     color: #3f3fba;
 }
 .subtitulo-2{
+    line-height: 50px;
     color: #ffffff;
     font-weight: bold;
     font-size: 24px;
     margin: 2%;
     color: #8686f0;
 }
+
 .parrafo{
     color: var(--font-color-primary);
     font: 2em 'Smooch Sans', sans-serif;
     vertical-align: top;
-    width: 60%;
+    width: 100%;
     padding: 2% 8%;
     display: inline-block;
 }
