@@ -84,5 +84,39 @@
             "img":"assets/img/hobbies/cutting-board.png",
             "class":"img-skills"
         }
+    ],
+    "formacion":[
+        {
+            "nombre":"Técnico superior en computación y redes",
+            "institucion": " IES 9-010 \"Rosario Vera Peñaloza\"",
+            "img":"assets/img/hobbies/computing-and-networks.png",
+            "class":"img-formacion",
+            "duracion": "2017 - 2020",
+            "description":" Durante el cursado de esta carrera aprendí a como usar correctamente un equipo informático tanto en Windows como Linux, a usar la consola o el bash, trabajar con redes, gestionarlas, seguridad informática, y muchas otras habilidades como: llevar a cabo un proyecto, emprender, y legislación informática. También cabe mencionar que aquí fue donde descubrí la programación y mi amor por la misma."
+        },
+        {
+            "nombre":"Técnico superior en desarrollo de software",
+            "institucion": " IES 9-010 \"Rosario Vera Peñaloza\"",
+            "img":"assets/img/hobbies/software_development.png",
+            "class":"img-formacion",
+            "duracion": "2020 - actualidad",
+            "description":" Luego de descubrir la programación en la tecnicatura de computación y redes, me decidí por formarme específicamente para el desarrollo de software empezando esta tecnicatura que abarca practicas teóricas como prácticas para el desarrollo de software. Cosas como el modelado de software, modelado de bases de datos, requermientos de sofware, entendimiento del funcionamiento de las redes informáticas y los protocolos de comunicación TCP/IP, lógica de programación en python y desarrollo front end en flutter."
+        },
+        {
+            "nombre":"Desarrollador de videojuegos Nivel Incial",
+            "institucion": "UTN FRRE - Resistencia",
+            "img":"assets/img/hobbies/videogames-develop.png",
+            "class":"img-formacion",
+            "duracion": "2020",
+            "description":"Fue para las vacaciones que decidí dedicar mi tiempo libre en descubrir esta área de la programación y del desarrollo de videojuegos en general, teniendo contacto con el lenguaje C# y herramientas de modelado como Blender."
+        },
+        {
+            "nombre":"Proyecto ONE",
+            "institucion": "Alura Latam",
+            "img":"assets/img/hobbies/videogames-develop.png",
+            "class":"img-formacion",
+            "duracion": "2022 - actualidad",
+            "description":"Con el objetivo de aprender más sobre el dasarrollo de software y preparararme para mi primera oportunidad laboral fue que quise formar parte del Proyecto ONE de Oracle y Alura. Puedo decir que aquí fue donde conseguí mi mayor motivación para seguir aprendiendo gracias a la excelente capacitación y acompañamiento que dan. Desarrolle skills como la constancia, la auto enseñanza, la auto superación, también fue que conocí el lenguaje de programación JavaScript, el lenguaje de marcado HTML5 y el lenguaje de estilos CSS3."
+        }
     ]
 }

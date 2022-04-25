@@ -38,6 +38,17 @@ async function crearElementosHobbies(resource) {
     });
 }
 
+async function crearElementosHobbies(resource) {
+    const data = await client_services.get_resources()
+    data[resource].forEach(skill =>{
+        let li = document.createElement('li')
+        li.classList.add('lista-formacion')
+        li.innerHTML = crearElemento(skill)
+        sectorDeHobbies.appendChild(li)
+    });
+}
+
 crearElementosContactos("redes")
 crearElementosSkills("skills")
 crearElementosHobbies('hobbies')
+crearElementoFormacion('formacion')
