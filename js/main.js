@@ -3,6 +3,7 @@ import { client_services } from "./service/client-service.js";
 const sectorDeContactos = document.getElementById('redes-sociales')     // Traemos a una variable el elemento del DOM identificado por el id redes-sociales
 const sectorDeSkills = document.getElementById('sector-skills') 
 const sectorDeHobbies = document.getElementById('sector-hobbies')
+const sectorDeFormacion = document.getElementById('sector-formacion')
 function crearElemento(parametro){                              // Creamos una función que crea el elemento tal cual queremos esté en el DOM    
     return `<img class=${parametro.class} src=${parametro.img}
     alt=""><p href="#">${parametro.nombre}</p>`
@@ -38,13 +39,23 @@ async function crearElementosHobbies(resource) {
     });
 }
 
-async function crearElementosHobbies(resource) {
+
+function elementoFormacion(parametro){                              // Creamos una función que crea el elemento tal cual queremos esté en el DOM    
+    return `
+    <p class="subtitulo">${parametro.nombre}</p>
+    <p class="subtitulo-2">${parametro.institucion}</p>
+    <p>${parametro.duracion}</p>
+    <img class=${parametro.class} src=${parametro.img}alt=""><p href="#">
+    `
+}
+
+async function crearElementoFormacion(resource) {
     const data = await client_services.get_resources()
     data[resource].forEach(skill =>{
         let li = document.createElement('li')
         li.classList.add('lista-formacion')
-        li.innerHTML = crearElemento(skill)
-        sectorDeHobbies.appendChild(li)
+        li.innerHTML = elementoFormacion(skill)
+        sectorDeFormacion.appendChild(li)
     });
 }
 
