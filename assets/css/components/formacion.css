@@ -1,4 +1,24 @@
-.formacion{
+.sector-formacion{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.lista-formacion{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: var(--background-color);
+    background: var(--card-background-gradient);
+    margin: 30px auto;
+    padding: 20px;
+}
+.descripcion-formacion{
+    width: 50%;
+    text-align: center;
+}
+.img-formacion{
+    width: 120px;
 }

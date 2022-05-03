@@ -5,6 +5,7 @@
     --font-color-thirty: #A2A2A2;
 
 
-    --background-color: #ffffff;
+    --background-color: rgb(6,18,167);;
     --shadow: 0 5px 10px #55a6ff38;
+    --card-background-gradient:linear-gradient(180deg, rgba(6,18,167,0.20) 0%, rgba(85,90,212,0.20) 49%, rgba(127,54,195,0.20) 100%); 
 }

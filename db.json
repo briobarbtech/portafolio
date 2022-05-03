@@ -118,5 +118,12 @@
             "duracion": "2022 - actualidad",
             "description":"Con el objetivo de aprender más sobre el dasarrollo de software y preparararme para mi primera oportunidad laboral fue que quise formar parte del Proyecto ONE de Oracle y Alura. Puedo decir que aquí fue donde conseguí mi mayor motivación para seguir aprendiendo gracias a la excelente capacitación y acompañamiento que dan. Desarrolle skills como la constancia, la auto enseñanza, la auto superación, también fue que conocí el lenguaje de programación JavaScript, el lenguaje de marcado HTML5 y el lenguaje de estilos CSS3."
         }
+    ],
+    "proyectos": [
+        {
+            "nombre":"Encriptador de texto",
+            "description":"Este es un encriptador, puedes colocar un texto en el campo de texto que él se encargará de convertirlo en algo completamente inentendible a simple vista",
+            "class":"img-proyecto"
+        }
     ]
 }

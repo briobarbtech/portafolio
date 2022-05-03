@@ -8,11 +8,12 @@
 @import url(../components/about-me.css);
 @import url(../components/skills.css);
 @import url(../components/hobbies.css);
+@import url(../components/formacion.css);
 
 body{
     width:100%;
     background: url(../../img/background-1-by-me.png);
-    background-size: 100%;
+ /*    background-size: 100%; */
     background-color: black;
 }
 a{
