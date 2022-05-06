@@ -9,6 +9,7 @@
 @import url(../components/skills.css);
 @import url(../components/hobbies.css);
 @import url(../components/formacion.css);
+@import url(../components/proyectos.css);
 
 body{
     width:100%;

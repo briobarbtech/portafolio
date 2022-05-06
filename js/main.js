@@ -27,8 +27,11 @@ function elementoFormacion(parametro){                              // Creamos u
 
 function crearElementoProyecto(parametro){
     return `
-    <p class="subtitulo">${parametro.nombre}</p>
-    <p class="subtitulo-2">${parametro.description}</p>
+    <img class="img-proyecto" src=${parametro.image}>
+    <div class="item-proyecto">
+        <p class="subtitulo">${parametro.nombre}</p>    
+        <p class="subtitulo-2">${parametro.description}</p>
+    </div>
     `
 }
 

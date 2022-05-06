@@ -3,12 +3,11 @@
     margin: 0 auto;
 }
 .sector-skills{
-    margin: 40px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
     background: var(--background-color);
-    background: var(--card-background-gradient)
+    background: var(--card-background-gradient);
     padding: 30px;
 }
 .lista-skills{

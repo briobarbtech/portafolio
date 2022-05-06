@@ -3,7 +3,6 @@
     margin: 0 auto;
 }
 .sector-hobbies{
-    margin: 40px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
