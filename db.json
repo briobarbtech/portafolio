@@ -123,6 +123,13 @@
         {
             "nombre":"Encriptador de texto",
             "description":"Este es un encriptador, puedes colocar un texto en el campo de texto que él se encargará de convertirlo en algo completamente inentendible a simple vista",
+            "image":"assets/img/projects/encoder.png",
+            "class":"img-proyecto"
+        },
+        {
+            "nombre":"Encriptador de texto",
+            "description":"Este es un encriptador, puedes colocar un texto en el campo de texto que él se encargará de convertirlo en algo completamente inentendible a simple vista",
+            "image":"assets/img/projects/hangman.png",
             "class":"img-proyecto"
         }
     ]

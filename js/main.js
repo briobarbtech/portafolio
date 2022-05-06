@@ -16,9 +16,11 @@ function elementoFormacion(parametro){                              // Creamos u
     <img class="${parametro.class}" src=${parametro.img} alt="">
     <div class="itemFormacion">
         <p class="subtitulo">${parametro.nombre}</p>
-        <p class="subtitulo-2">${parametro.institucion}</p>
-        <p>${parametro.duracion}</p>
-        <p>${parametro.description}</p>
+        <div class="instituto">
+            <p class="instituto-nombre">${parametro.institucion}</p>
+            <p class="duracion">${parametro.duracion}</p>
+        </div>
+        <p class="description">${parametro.description}</p>
     </div>
     `
 }

@@ -5,7 +5,8 @@
     justify-content: center;
 }
 .img-formacion{
-    width: 120px;
+    width: 230px;
+    border-radius: 10px;
     margin: auto;
 }
 .lista-formacion{
@@ -17,8 +18,11 @@
     background: rgb(6,18,167);
     background: linear-gradient(180deg, rgba(6,18,167,0.20) 0%, rgba(85,90,212,0.20) 49%, rgba(127,54,195,0.20) 100%);
     padding: 30px;
+    margin: 5px;
 }
 .itemFormacion{
+    width: 70%;
+    height: 230px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -27,11 +31,30 @@
     background: var(--card-background-gradient);
     margin: 30px auto;
     padding: 20px;
+    border-radius: 10px;
 }
 .descripcion-formacion{
     width: 50%;
     text-align: center;
 }
-.img-formacion{
-    width: 120px;
+.instituto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.instituto-nombre{
+    font-family: var(--font-family-body);
+    margin: 15px 0;
+}
+.duracion{
+    font-family: var(--font-family-body);
+    margin: 20px 0;
+}
+.description{
+    font-family: var(--font-family-body);
+    line-height: 25px;
+}
+.instituto-nombre{
+    color: #8686f0;
+    font-size: 24px;
 }
