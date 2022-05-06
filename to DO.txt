@@ -1,5 +1,5 @@
 () - Buscar la forma de reutilizar el codigo de crear contacto para skills y hobbies
-() - Cambiar las clases de la formacion para que tengan un espaciado acorde
+() - Arreglar elementos que tienen tamaños diferentes
 
 ✓
 

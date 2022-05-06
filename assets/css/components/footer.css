@@ -1,0 +1,13 @@
+footer{
+    background-color: #020217;
+    margin: auto;
+    width: 30%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 265px 265px 0 0;
+}
+.autor{
+    text-align: center;
+    margin-top: 12px;
+
+}

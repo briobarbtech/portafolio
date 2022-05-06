@@ -7,12 +7,11 @@
     margin: 0 auto;
 }
 .img-formacion{
-    width: 230px;
+    width: 13%;
     border-radius: 10px;
     margin: auto;
 }
 .lista-formacion{
-    height: 480px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +23,6 @@
 }
 .itemFormacion{
     width: 70%;
-    height: 230px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;

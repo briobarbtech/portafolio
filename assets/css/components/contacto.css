@@ -1,0 +1,40 @@
+.contacto{
+    margin: 0 auto;
+    width: 80%;
+/*     background: var(--background-color);
+    background: var(--card-background-gradient); */
+}
+.sector-contacto{
+    align-items: center;
+    padding: 30px 60px;
+    display: flex;
+    margin: 0 auto;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+.imagen-contacto{
+    width: 20%;
+    padding: 40px;
+}
+.formulario-contacto{
+    text-align: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.formulario-contacto label{
+    margin-bottom: 10px;
+    color: var(--font-color-primary);
+}
+.formulario-contacto input{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.formulario-contacto button{
+    background-color: var(--font-color-secondary);
+    border-radius: 10px;
+    height: 40px;
+    color: var(--font-color-primary);
+}
