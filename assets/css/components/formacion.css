@@ -1,4 +1,24 @@
-.formacion{
+.sector-formacion{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-formacion{
+    width: 120px;
+    margin: auto;
+}
+.lista-formacion{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgb(6,18,167);
+    background: linear-gradient(180deg, rgba(6,18,167,0.20) 0%, rgba(85,90,212,0.20) 49%, rgba(127,54,195,0.20) 100%);
+    padding: 30px;b
+}
+.itemFormacion{
+    width: 80%;
 }
