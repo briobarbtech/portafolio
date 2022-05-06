@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 .img-formacion{
     width: 120px;
@@ -17,8 +16,22 @@
     border-radius: 10px;
     background: rgb(6,18,167);
     background: linear-gradient(180deg, rgba(6,18,167,0.20) 0%, rgba(85,90,212,0.20) 49%, rgba(127,54,195,0.20) 100%);
-    padding: 30px;b
+    padding: 30px;
 }
 .itemFormacion{
-    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: var(--background-color);
+    background: var(--card-background-gradient);
+    margin: 30px auto;
+    padding: 20px;
+}
+.descripcion-formacion{
+    width: 50%;
+    text-align: center;
+}
+.img-formacion{
+    width: 120px;
 }

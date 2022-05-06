@@ -7,7 +7,7 @@
 .parrafo-presentacion{
     width: 80%;
     margin-top: 120px;
-   margin-left: 100px;;
+    margin-left: 100px;;
 }
 .imagen-presentacion{
     width: 100%;
@@ -30,4 +30,17 @@
 .img-social{
     margin: 10px;
     width: 20%;
+}
+
+@media (min-width: 720px){
+    .parrafo-presentacion{
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .foto-perfil{
+        width: 240px;
+    }
+    .imagen-presentacion{
+        width: 50%;
+    }
 }

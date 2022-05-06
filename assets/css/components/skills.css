@@ -7,8 +7,8 @@
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    background: rgb(6,18,167);
-    background: linear-gradient(180deg, rgba(6,18,167,0.20) 0%, rgba(85,90,212,0.20) 49%, rgba(127,54,195,0.20) 100%);
+    background: var(--background-color);
+    background: var(--card-background-gradient)
     padding: 30px;
 }
 .lista-skills{
