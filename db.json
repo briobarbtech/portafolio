@@ -127,8 +127,8 @@
             "class":"img-proyecto"
         },
         {
-            "nombre":"Encriptador de texto",
-            "description":"Este es un encriptador, puedes colocar un texto en el campo de texto que él se encargará de convertirlo en algo completamente inentendible a simple vista",
+            "nombre":"Juego del ahorcado",
+            "description":"Este es el clásico juego del ahorcado. Presiona las letras a ver si eres capaz de adivinar el animal escondido",
             "image":"assets/img/projects/hangman.png",
             "class":"img-proyecto"
         }
