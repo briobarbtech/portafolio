@@ -27,10 +27,11 @@
 }
 @media(max-width: 768px){
     .lista-proyectos{
+        width: 90%;
         flex-direction: column;
     }
     .img-proyecto{
-        width:420px;
+        width: 100%;
     }
     .item-proyecto{
         width: 90%;

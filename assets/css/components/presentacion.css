@@ -32,20 +32,29 @@
     width: 20%;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
+    .presentación{
+        justify-content: left;
+    }
     .parrafo-presentacion{
-        margin-top: 60px;
-        margin-left: 50px;
+        width: 100%;
+        margin: 10px auto;
     }
     .foto-perfil{
-        width: 220px;
+        width: 130px;
     }
-    .parrafo-presentacion{
+    .parrafo-presentacion p{
         width: 40%;
+        line-height: 15px;
+    }
+    .parrafo-presentacion h1{
         margin: auto;
     }
     .imagen-presentacion{
-        width: 40%;
+        position: absolute;
+        left: 80px;
+        top: 150px;
+        align-items: center;
     }
     .redes-sociales li{
         width: max-content;
@@ -54,5 +63,10 @@
     }
     .img-social{
         margin-right: 5px;
+    }
+    .social{
+        display: block;
+        width: 100%;
+        align-items: center;
     }
 }

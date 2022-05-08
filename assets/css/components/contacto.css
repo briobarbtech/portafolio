@@ -38,3 +38,9 @@
     height: 40px;
     color: var(--font-color-primary);
 }
+@media(max-width: 768px){
+    .sector-contacto{
+        padding: 0;
+    }
+
+}
