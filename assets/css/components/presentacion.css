@@ -32,15 +32,27 @@
     width: 20%;
 }
 
-@media (min-width: 720px){
+@media (min-width: 768px){
     .parrafo-presentacion{
         margin-top: 60px;
         margin-left: 50px;
     }
     .foto-perfil{
-        width: 240px;
+        width: 220px;
+    }
+    .parrafo-presentacion{
+        width: 40%;
+        margin: auto;
     }
     .imagen-presentacion{
-        width: 50%;
+        width: 40%;
+    }
+    .redes-sociales li{
+        width: max-content;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+    .img-social{
+        margin-right: 5px;
     }
 }

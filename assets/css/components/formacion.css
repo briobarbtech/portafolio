@@ -58,3 +58,12 @@
     color: #8686f0;
     font-size: 24px;
 }
+@media(min-width: 768px){
+    .instituto-nombre{
+        font-size: 16px;
+    }
+    .duracion{
+        font-size: 16;
+        color: rgb(179, 198, 245);
+    }
+}

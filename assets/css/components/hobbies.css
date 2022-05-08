@@ -25,3 +25,9 @@
 .lista-hobbies:hover{
     transform: scale(1.4);
 }
+  
+@media(min-width: 768px){
+    .lista-hobbies{
+        width: 180px;
+    }
+}

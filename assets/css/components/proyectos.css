@@ -25,3 +25,14 @@
     border-radius: 10px;
     width: 50%;
 }
+@media(min-width: 768px){
+    .lista-proyectos{
+        flex-direction: column;
+    }
+    .img-proyecto{
+        width:420px;
+    }
+    .item-proyecto{
+        width: 90%;
+    }
+}
