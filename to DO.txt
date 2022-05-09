@@ -1,5 +1,7 @@
 () - Buscar la forma de reutilizar el codigo de crear contacto para skills y hobbies
-() - Arreglar elementos que tienen tamaños diferentes
+(✓) - Arreglar elementos que tienen tamaños diferentes
+() - Arreglar los botones del nav para que en la versión mobile me mande a la pantalla que quiero y se cierre el menú lateral
+() - Deshabilitar el scroll cuando mostramos el menu lateral
 
 ✓
 

@@ -35,26 +35,28 @@
 @media (max-width: 768px){
     .presentación{
         justify-content: left;
+        flex-direction: column;
     }
     .parrafo-presentacion{
         width: 100%;
         margin: 10px auto;
+        display: flex;
     }
-    .foto-perfil{
-        width: 130px;
-    }
-    .parrafo-presentacion p{
+    
+    .parrafo-descripcion{
         width: 40%;
         line-height: 15px;
+        margin: 0 20px;
     }
     .parrafo-presentacion h1{
         margin: auto;
     }
     .imagen-presentacion{
-        position: absolute;
-        left: 80px;
-        top: 150px;
-        align-items: center;
+        width: 40%;
+    }
+    .foto-perfil{
+        margin: 10%;
+        width: 130px;
     }
     .redes-sociales li{
         width: max-content;
