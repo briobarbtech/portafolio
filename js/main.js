@@ -11,7 +11,7 @@ function crearElemento(parametro){                              // Creamos una f
 }
 
 
-function elementoFormacion(parametro){                              // Creamos una función que crea el elemento tal cual queremos esté en el DOM    
+function crearElementoFormacion(parametro){                              // Creamos una función que crea el elemento tal cual queremos esté en el DOM    
     return `
     <img class="${parametro.class}" src=${parametro.img} alt="">
     <div class="itemFormacion">
@@ -35,63 +35,21 @@ function crearElementoProyecto(parametro){
     `
 }
 
-async function crearElementosContactos(resource) {
-    const data = await client_services.get_resources()
-    data[resource].forEach(contacto => {                                             // Por cada elemente en el Array de redes
-        let li = document.createElement('li')                               // va a crear un elemento de tipo li
-        li.innerHTML = crearElemento(contacto)                      // va a agregar el resuitado de la función crearEllemento
-        sectorDeContactos.appendChild(li)                                   // y finalmente lo agrega como hijo del sector de contactos en el DOM 
-    });
-}
-
-async function crearElementosSkills(resource) {
-    const data = await client_services.get_resources()
-    data[resource].forEach(skill =>{
-        let li = document.createElement('li')
-        li.classList.add('lista-skills')
-        li.innerHTML = crearElemento(skill)
-        sectorDeSkills.appendChild(li)
-    });
-}
-
-async function crearElementosHobbies(resource) {
-    const data = await client_services.get_resources()
-    data[resource].forEach(skill =>{
-        let li = document.createElement('li')
-        li.classList.add('lista-hobbies')
-        li.innerHTML = crearElemento(skill)
-        sectorDeHobbies.appendChild(li)
-    });
-}
-
-
-
-
-async function crearElementoFormacion(resource) {
-    const data = await client_services.get_resources()
-    data[resource].forEach(skill =>{
-        let li = document.createElement('li')
-        li.classList.add('lista-formacion')
-        li.innerHTML = elementoFormacion(skill)
-        sectorDeFormacion.appendChild(li)
-    });
-}
-
-async function crearElementoExperienciaLaboral(resource) {
+async function createElement(resource, className, parent, functionElement) {
     const data = await client_services.get_resources()
     data[resource].forEach(proyecto => {
         let li = document.createElement('li');
-        li.classList.add('lista-proyectos');
-        li.innerHTML = crearElementoProyecto(proyecto)
-        sectorDeProyectos.appendChild(li)
+        li.classList.add(className);
+        li.innerHTML = functionElement(proyecto)
+        parent.appendChild(li)
     })
 }
 
-crearElementosContactos("redes")
-crearElementosSkills("skills")
-crearElementosHobbies('hobbies')
-crearElementoFormacion('formacion')
-crearElementoExperienciaLaboral('proyectos')
+createElement("redes", null, sectorDeContactos,crearElemento)
+createElement("skills", 'lista-skills', sectorDeSkills, crearElemento)
+createElement('hobbies', 'lista-hobbies', sectorDeHobbies, crearElemento)
+createElement('formacion','lista-formacion',sectorDeFormacion, crearElementoFormacion)
+createElement('proyectos','lista-proyectos',sectorDeProyectos,crearElementoProyecto)
 
 
 
@@ -102,3 +60,13 @@ const nav = document.querySelector('.nav')
 toggleButton.addEventListener('click',()=>{
     nav.classList.toggle('toggle_visible')
 })
+
+const navButtons = document.querySelectorAll('[data-button-nav]')
+
+navButtons.forEach(element => {
+    element.addEventListener('click', ()=>{
+        if(window.innerWidth < 768){
+            element.classList.toggle('toggle_visible');
+        }
+    })
+});
