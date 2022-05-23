@@ -3,7 +3,6 @@ footer{
     margin: auto;
     width: 30%;
     height: 40px;
-    padding: 20px;
     border-radius: 265px 265px 0 0;
 }
 .autor{
@@ -15,7 +14,7 @@ footer{
     footer{
         width: 100%;
         border-radius: unset;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         background: var(--background-color);
         background: var(--card-background-gradient);
     }
