@@ -63,10 +63,12 @@ toggleButton.addEventListener('click',()=>{
 
 const navButtons = document.querySelectorAll('[data-button-nav]')
 
+/* console.log('window.innerWidth: ', window.innerWidth); */
 navButtons.forEach(element => {
     element.addEventListener('click', ()=>{
-        if(window.innerWidth < 768){
-            element.classList.toggle('toggle_visible');
+        let nav = document.querySelector('.nav');
+        if (window.innerWidth < 768){
+            nav.classList.toggle('toggle_visible')
         }
     })
 });
