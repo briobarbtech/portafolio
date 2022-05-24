@@ -26,14 +26,19 @@
     width: 50%;
 }
 @media(max-width: 768px){
+    .sector-proyectos{
+        width: 95%;
+    }
     .lista-proyectos{
         width: 90%;
         flex-direction: column;
+        padding: 0;
+        padding-top: 10px;
     }
     .img-proyecto{
         width: 100%;
     }
     .item-proyecto{
-        width: 90%;
+        width: 100%;
     }
 }

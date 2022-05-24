@@ -6,7 +6,12 @@
     .about-me{
         margin: 0 auto;
     }
+    .section-about-me{
+        margin: 0;
+        text-align: center;
+    }
     .subtitulo-2{
         line-height: 20px;
+        
     }
 }

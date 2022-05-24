@@ -48,17 +48,20 @@
 
 @media (max-width: 768px){
     .presentación{
+        width: 95%;
         justify-content: left;
         flex-direction: column;
+        margin-top: 40px;
     }
     .parrafo-presentacion{
         width: 100%;
-        margin: 10px auto;
+        margin: 10px 0;
         display: flex;
+        text-align: center;
     }
     
     .parrafo-descripcion{
-        width: 40%;
+        width: 60%;
         line-height: 15px;
         margin: 0 20px;
     }
@@ -70,6 +73,7 @@
     }
     .foto-perfil{
         width: 130px;
+        margin: 0;
     }
     .redes-sociales li{
         width: max-content;
@@ -83,5 +87,12 @@
         display: block;
         width: 100%;
         align-items: center;
+    }
+    .redes-sociales {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        margin: 0 auto;
+        justify-content: space-around;
     }
 }

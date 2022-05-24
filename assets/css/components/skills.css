@@ -29,3 +29,20 @@
     margin-bottom: 10px;
     width: 40px;
 }
+@media (max-width: 768px) {
+    .skills{
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .skills div {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sector-skills{
+        padding: 5px;
+    }
+    .lista-skills p {
+        font-size: 12px;
+    }
+}

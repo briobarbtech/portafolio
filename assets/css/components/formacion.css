@@ -59,11 +59,32 @@
     font-size: 24px;
 }
 @media(max-width: 768px){
-    .instituto-nombre{
-        font-size: 16px;
+    .sector-formacion{
+        width: 95%;
     }
     .duracion{
         font-size: 16;
         color: rgb(179, 198, 245);
+    }
+    .itemFormacion {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+    .itemFormacion .subtitulo{
+        font-size: 18px;
+    }
+    .instituto p{
+        font-size: 16px;
+    }
+    
+    .lista-formacion{
+        padding: 0;
+    }
+    .img-formacion {
+        display: none;
+    }
+    .description{
+        font-size: 12px;
     }
 }

@@ -45,7 +45,7 @@ async function createElement(resource, className, parent, functionElement) {
     })
 }
 
-createElement("redes", null, sectorDeContactos,crearElemento)
+createElement("redes", 'lista-redes', sectorDeContactos,crearElemento)
 createElement("skills", 'lista-skills', sectorDeSkills, crearElemento)
 createElement('hobbies', 'lista-hobbies', sectorDeHobbies, crearElemento)
 createElement('formacion','lista-formacion',sectorDeFormacion, crearElementoFormacion)
@@ -72,3 +72,6 @@ navButtons.forEach(element => {
         }
     })
 });
+
+const edadItem = document.querySelector('#edad');
+console.log('edadItem: ', edadItem);
