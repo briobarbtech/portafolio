@@ -24,6 +24,8 @@
 }
 .imagen-presentacion{
     width: 40%;
+    display: flex;
+    justify-content: center;
 }
 .foto-perfil{
     margin: 10%;

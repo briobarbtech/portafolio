@@ -12,13 +12,15 @@
     vertical-align: middle;
     justify-content: space-between;
 }
+.sector-contacto div {
+    width: 40%;
+}
 .imagen-contacto{
     width: 20%;
     padding: 40px;
 }
 .formulario-contacto{
     text-align: left;
-    width: 70%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
