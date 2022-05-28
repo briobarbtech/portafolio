@@ -13,20 +13,23 @@
     justify-content: space-between;
 }
 .sector-contacto div {
-    width: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .imagen-contacto{
     width: 20%;
     padding: 40px;
 }
 .formulario-contacto{
+    width: 60%;
     text-align: left;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 .formulario-contacto label{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: var(--font-color-primary);
 }
 .formulario-contacto input{
@@ -40,10 +43,28 @@
     height: 40px;
     color: var(--font-color-primary);
 }
+
+.input-container--invalid{
+    border: 2px solid var(--error-color) ;
+}
+.input-message-error {
+    font-size: 10px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+span{
+    height: 5px;
+}
 @media(max-width: 768px){
     .sector-contacto{
         padding: 0;
         margin-bottom: 30px;
+    }
+    .sector-contacto div {
+        width: unset;
+        display: flex;
+        flex-direction: column;
     }
     .titulo-contacto {
         text-align: center;

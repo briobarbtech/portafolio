@@ -1,5 +1,8 @@
+const urlRemote = `https://briobarbtech.github.io/brian-barquesi-portafolio/db.json`;
+const urlLocal = '../../db.json'
+
 function get_resources(){
-    return fetch(`https://briobarbtech.github.io/brian-barquesi-portafolio/db.json`).then((response)=>{
+    return fetch(urlLocal).then((response)=>{
         return response.json()
     })
 }

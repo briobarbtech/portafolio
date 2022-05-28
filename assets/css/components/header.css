@@ -46,7 +46,48 @@ header{
 p{
     color: white;
 }
-
+@media (max-width: 1023px) {
+    .indice{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        height: 60px;
+        margin: 0 5px;
+    }
+    .toggle-button{
+        text-align: center;
+        width: 54px;
+        display: unset;
+    }
+    .nav{
+        width: 100%;
+        position: fixed;
+        background-color: #020217;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 60px;
+        left: 100%;
+        transition: 0.3s;
+    }
+    .nav li{
+        margin: auto
+    }
+    .toggle_visible{
+        left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-img{
+        width: 25px;
+    }
+    .logo{
+        font-size: 14px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
 @media (max-width: 768px) {
     .indice{
         justify-content: space-between;

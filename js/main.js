@@ -9,6 +9,12 @@ function crearElemento(parametro){                              // Creamos una f
     return `<img class=${parametro.class} src=${parametro.img}
     alt=""><p href="#">${parametro.nombre}</p>`
 }
+function crearEnlace(parametro){
+    return `<a href=${parametro.link} target="_blank">
+        <img class=${parametro.class} src=${parametro.img}
+        alt=""><p href="#">${parametro.nombre}</p>
+    </a>`
+}
 
 
 function crearElementoFormacion(parametro){                              // Creamos una función que crea el elemento tal cual queremos esté en el DOM    
@@ -45,7 +51,7 @@ async function createElement(resource, className, parent, functionElement) {
     })
 }
 
-createElement("redes", 'lista-redes', sectorDeContactos,crearElemento)
+createElement("redes", 'lista-redes', sectorDeContactos,crearEnlace)
 createElement("skills", 'lista-skills', sectorDeSkills, crearElemento)
 createElement('hobbies', 'lista-hobbies', sectorDeHobbies, crearElemento)
 createElement('formacion','lista-formacion',sectorDeFormacion, crearElementoFormacion)
@@ -72,6 +78,3 @@ navButtons.forEach(element => {
         }
     })
 });
-
-const edadItem = document.querySelector('#edad');
-console.log('edadItem: ', edadItem);

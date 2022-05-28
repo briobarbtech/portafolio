@@ -3,22 +3,26 @@
         {
             "nombre":"GitHub",
             "img":"assets/img/icons/github.svg",
-            "class":"img-social"
+            "class":"img-social",
+            "link":"https://github.com/briobarbtech"
         },
         {
             "nombre":"LinkedIn",
             "img":"assets/img/icons/linkedin.svg",
-            "class":"img-social"
+            "class":"img-social",
+            "link":"http://www.linkedin.com/in/brian-barquesi"
         },
         {
             "nombre":"Instagram",
             "img": "assets/img/icons/instagram.svg",
-            "class":"img-social"
+            "class":"img-social",
+            "link":"https://www.instagram.com/barquesi.tech/"
         },
         {
             "nombre":"Curriculum",
             "img": "assets/img/icons/curriculum-vitae.svg",
-            "class":"img-social"
+            "class":"img-social",
+            "link": "https://drive.google.com/file/d/1YiDiqFisF_kB2i3srDYc7Q_LVhMx5pqd/view?usp=sharing"
         }
     ],
     "skills": [
