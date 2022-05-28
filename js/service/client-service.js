@@ -2,7 +2,7 @@ const urlRemote = `https://briobarbtech.github.io/brian-barquesi-portafolio/db.j
 const urlLocal = '../../db.json'
 
 function get_resources(){
-    return fetch(urlLocal).then((response)=>{
+    return fetch(urlRemote).then((response)=>{
         return response.json()
     })
 }
