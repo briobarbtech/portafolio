@@ -1,4 +1,4 @@
-import { client_services } from "./service/client-service.js";
+import { client_services } from "./controller/service/client-service.js"
 
 const sectorDeContactos = document.getElementById('redes-sociales')     // Traemos a una variable el elemento del DOM identificado por el id redes-sociales
 const sectorDeSkills = document.getElementById('sector-skills') 
@@ -42,7 +42,7 @@ function crearElementoProyecto(parametro){
 }
 
 async function createElement(resource, className, parent, functionElement) {
-    const data = await client_services.get_resources(Endpoint.urlRemote);
+    const data = await client_services.get_resources();
     data[resource].forEach(proyecto => {
         let li = document.createElement('li');
         li.classList.add(className);

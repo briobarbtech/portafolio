@@ -1,5 +1,7 @@
-function get_resources(urlRemote){
-    return fetch(urlRemote).then((response)=>{
+import { Endpoints } from "../../assets/endpoints.js"
+
+function get_resources(){
+    return fetch(Endpoints.urlRemote).then((response)=>{
         return response.json()
     })
 }
