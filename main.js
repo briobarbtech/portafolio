@@ -42,7 +42,7 @@ function crearElementoProyecto(parametro){
 }
 
 async function createElement(resource, className, parent, functionElement) {
-    const data = await client_services.get_resources(Endpoint.urlLocal);
+    const data = await client_services.get_resources(Endpoint.urlRemote);
     data[resource].forEach(proyecto => {
         let li = document.createElement('li');
         li.classList.add(className);
